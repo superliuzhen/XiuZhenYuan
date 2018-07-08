@@ -1,0 +1,176 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{background-color: #555555;}
+#news{
+	width: 980px;
+	height: 1386px;
+	margin: 40px auto;
+	position: relative;
+	background-color: white;
+	}
+#top{
+	margin: 0 auto;	
+}
+#footer{
+	margin: 0 auto;
+}
+#main{
+	width: 892px;
+	height: 1224px;
+	padding: 20px 0;
+	margin: 0 auto;
+	border-top: 2px #938E8C solid;
+	border-bottom: 1px #938E8C solid;
+}
+#upper{
+	height: 322px;
+}
+#middle{
+	height: 200px;
+}
+#lower{
+	height: 690px;
+	position: relative;
+	bottom:-30px;
+}
+.a1{
+	float: left;
+	width: 641px;
+	height: 301px;
+	position: relative;
+}
+.t1{
+	width: 191px;
+	height: 300px;
+	position: absolute;
+	background: black;
+	opacity: 0.5;
+	top: 0;
+}
+.t2{
+	width: 191px;
+	height: 300px;
+	position: absolute;
+	background: black;
+	opacity: 0.5;
+	right: 0;
+	top: 0;
+}
+.a2{
+	width: 203px;
+	height: 301px;
+	float: right;
+	position: relative;
+	border-top: 2px #938e8c solid;
+}
+.s1{
+	position: relative;
+	left:-20px;
+	bottom: 10px;
+	height: 118px;
+}
+.s2{
+	position: absolute;
+	top:240px;
+}
+.s3{
+	position: absolute;
+	left:80px;
+	top:250px
+}
+.b1,.b2,.b3{
+	float: left;
+	height: 220px;
+	width: 200px;
+	font:12px "微软雅黑";
+	color: #231815;
+	letter-spacing: 4px;
+	padding-right: 45px;
+}
+#middle h4{
+	font: bold 16px "微软雅黑";
+	text-decoration: underline;
+}
+.c1{
+	width: 415px;
+	height: 240px;
+	border-bottom: 2px #11456b solid;
+	position: absolute;
+	top: -20px;
+}
+.c2{
+	width: 415px;
+	height: 420px;
+	position: absolute;
+	bottom: 20px;
+}
+.c3{
+	width: 456px;
+	height: 276px;
+	position: absolute;
+	right: 0;
+	top: 50px;
+}
+.c4{
+	width: 455px;
+	height: 320px;
+	background-color: #EEEED6;
+	position: absolute;
+	right:0;
+	top: 350px;
+}
+.m1{
+	width: 70px;
+	height: 70px;
+	float: left;
+	margin-right: 12px;
+}
+.m2{
+	width: 120px;
+	height: 240px;
+	float: right;
+	margin: 10px 0 10px 10px;
+}
+.wall{
+	width: 0;
+	height: 75px;
+	float: left;
+}
+p{
+	font-size: 12px;
+}
+#tittles{
+	position: absolute;
+	top:50px
+}
+.bottom{
+	width: 455px;
+	height: 50px;
+	position: absolute;
+	bottom: 0px;
+	background: black;
+	opacity: 0.5;
+}
+.c4 ul{
+	position: absolute;
+	right: 30px;
+	top:30px;
+}
+.l1{
+	width:260px;
+	height: 160px;
+	position: absolute;
+	bottom: 0;
+	background-color: #D55D5C;
+}
+.l2{
+	width: 180px;
+	height: 120px;
+	position: absolute;
+	bottom: 40px;
+	right: 0;
+}
+
+

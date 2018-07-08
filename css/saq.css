@@ -1,0 +1,27 @@
+#main{
+	background-color: #999999;
+	height: 200px;
+	width: 400px;
+	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top:200px;
+}
+#left{
+	background-color: yellow;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	right:50px;
+	bottom:50px;
+	border-radius: 50%;
+	}
+#right{
+	background-color: yellow;
+	height: 100px;
+	width: 100px;
+	position: relative;
+	left:350px;
+	top:50px;
+	border-radius: 50%;
+}
