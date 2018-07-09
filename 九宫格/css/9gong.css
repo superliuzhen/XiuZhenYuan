@@ -1,18 +1,14 @@
-*{
-	margin: 0;
-	padding: 0;
-}
 .big-box{
-	width: 210px;
-	height: 210px;
-	padding: 5px;
-	border: 1px wheat solid;
+	width: 90%;						/*百分比应该都是相对于其父元素而言的吧*/
+	padding:2% 2% 90% 2%;			/*这里高度要使用padding-bottom属性来设置*/
+	margin: 0 auto;
+	border: 1px #dedede solid;		/*这里border设置成1%就会消失*/
 }
 .small-boxs{
-	width: 60px;
-	height: 60px;
+	width: 29%;
+	padding-bottom: 29%;
 	float: left;
-	margin: 5px;
+	margin: 2%;
 	background-color: orange;
 	border-radius: 10%;
 }
