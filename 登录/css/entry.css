@@ -52,17 +52,17 @@ form div {
 	background-image:url(../img/iphone.png);/*设置小图标*/
 	background-repeat: no-repeat;/*背景小图标不重复*/
 	background-size: 1rem 1.5rem;/*小图标的大小*/
-	background-position: 1.2rem;/*小图标在input的位置*/
+	background-position: 1.2rem;/*小图标在div的位置*/
 }
 .pass-div {
 	background-image:url(../img/locked.png);/*设置小图标*/
 	background-repeat: no-repeat;/*背景小图标不重复*/
 	background-size: 1rem 1.5rem;/*小图标的大小*/
-	background-position: 1.2rem;/*小图标在input的位置*/
+	background-position: 1.2rem;/*小图标在div的位置*/
 }
 	/*input框的设置*/
 form div input {
-	width: 100%;
+	/*width: 100%;   这里100%宽度就是父容器宽度，还要考虑到父容器的padding值*/ 
 	height: 1.8rem;
 	margin-top: 0.7rem;
 	padding-left: 1.2rem;
