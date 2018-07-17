@@ -1,0 +1,97 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background-color: #EFF0F4;
+}
+/*以下为header部分，包括左关闭，中间登录，以及右注册*/
+header {
+	max-width: 100%;
+	height: 3rem;
+	background-color: #5FC0CD;
+	text-align: center;
+	position: relative;
+	margin-bottom: .3rem;
+}
+	/*header左右关闭和注册*/
+header a {						
+	text-decoration: none;
+	color: #EFF0F4;
+	font-size: 0.9rem;
+	line-height: 3rem;
+}
+.close {
+	position: absolute;
+	left: 1rem;
+}
+.register {
+	position: absolute;
+	right: 1rem;
+}
+	/*header中间登录*/
+header span {
+	color: #EFF0F4;
+	font-size: 1rem;
+	line-height: 3rem;
+}
+
+
+/*以下为本页面的主体部分form*/
+
+	/*input框所在的div相关设置*/
+form div {
+	width: 100%;
+	height: 3rem;
+	background-color: white;
+	border:1px #EFF0F4 solid;
+	margin: .3rem 0;
+	padding-left: 3.5rem;
+}
+.text-div {
+	background-image:url(../img/iphone.png);/*设置小图标*/
+	background-repeat: no-repeat;/*背景小图标不重复*/
+	background-size: 1rem 1.5rem;/*小图标的大小*/
+	background-position: 1.2rem;/*小图标在input的位置*/
+}
+.pass-div {
+	background-image:url(../img/locked.png);/*设置小图标*/
+	background-repeat: no-repeat;/*背景小图标不重复*/
+	background-size: 1rem 1.5rem;/*小图标的大小*/
+	background-position: 1.2rem;/*小图标在input的位置*/
+}
+	/*input框的设置*/
+form div input {
+	width: 100%;
+	height: 1.8rem;
+	margin-top: 0.7rem;
+	padding-left: 1.2rem;
+	border: none;
+	outline: none;
+	border-left: 1px #64C1CE solid;
+	font-size: 1rem;
+}
+input::-webkit-input-placeholder {
+	color: #E2E6E8;
+}
+	/*登录提交按钮的设置*/
+form button {
+	width: 100%;
+	height: 3rem;
+	background-color: #5FC0CD;
+	color: #EFF0F4;
+	border: 1px #5FC0CD solid;
+	text-align: center;
+	line-height: 3rem;
+	font-size: 1rem;
+	margin-top: 1.8rem;
+	margin-bottom: .4rem;
+}
+	/*忘记密码*/
+form a {
+	text-decoration: none;
+	font-size: 0.9rem;
+	color: #97D2DB;
+	float: right;
+	margin-right: 0.8rem;
+}
