@@ -48,7 +48,7 @@ main {
 	background-repeat: no-repeat;
 	
 }
-.bg-image:after {
+.bg-image {
 	filter: blur(2px);
 }
 		/*背景图片暗化层*/
