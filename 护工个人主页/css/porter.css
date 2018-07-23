@@ -34,7 +34,7 @@ header {
 
 
 /*主体部分相关设置*/
-.main {
+main {
 	padding-top: 2.5rem;
 	padding-bottom: 3.5rem;
 	margin-bottom: 2.5rem;
@@ -46,6 +46,9 @@ header {
 	background-image: url(../img/bg-image.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
+	
+}
+.bg-image:after {
 	filter: blur(2px);
 }
 		/*背景图片暗化层*/
@@ -64,6 +67,8 @@ header {
 }
 		/*个人头像*/
 .head-img {
+	width: 5rem;
+	height: 5rem;
 	border-radius: 50%;
 	overflow: hidden;
 }
@@ -71,23 +76,26 @@ header {
 	width: 5rem;
 	height: 5rem;
 }
+       /*头像旁边的文字信息*/
+.text-info {
+	width: 10rem;
+	position: relative;
+	left: 7rem;
+	bottom: 4rem;
+}
 		/*姓名*/
 .name {
-	height: 2rem;
 	font-size: 1.2rem;
-	padding-left: 1rem;
-	vertical-align: bottom;
 }
 		/*年龄*/
 .age {
 	font-size: 1rem;
-	vertical-align: bottom;
 }
 		/*地址*/
 .location {
-	height: 2rem;
 	font-size: .8rem;
-	padding-left: 1rem;
+	position: absolute;
+	top: 2rem;
 }
 .location img {
 	height: .8rem;
