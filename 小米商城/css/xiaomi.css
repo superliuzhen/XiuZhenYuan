@@ -45,6 +45,8 @@ header ul li {
 #shopping-cart:hover {
 	background: white;
 	color: #FF6700;
+	cursor: progress;
+	z-index: 99;
 }
 #shopping-list {
 	min-height: 100px;
@@ -77,10 +79,9 @@ header ul li:last-child:after {
 
 
 /*以下是主体部分*/
-main {
-	padding: 0 56px;
-}
+
  /*主体头部*/
+
 #container-top {
 	height: 100px;
 	position: relative;
@@ -95,7 +96,7 @@ main {
 	line-height: 101px;
 }
 #logo {
-	padding: 20px 0;
+	padding: 20px 56px;
 }
 #container-top #nav-top {
 	position: absolute;
@@ -104,7 +105,7 @@ main {
 }
 #search-box {
 	position: absolute;
-	right: 51px;
+	right: 107px;
 	top: 23px;
 	width: 230px;
 	height: 49px;
@@ -113,14 +114,18 @@ main {
 .input:focus {
 	outline: none;
 }
+#search-btn:hover {
+	background: url(../img/search_2.jpg);
+}
 #search-btn {
 	position: absolute;
-	right: 0px;
+	right: 56px;
 	top: 23px;
 	width: 52px;
 	height: 49px;
 	background: url(../img/search.jpg);
 	border: 1px solid #E0E0E0;	
+	cursor: pointer;
 }
 
 #tellphone img {
@@ -139,15 +144,137 @@ main {
 #tellphone ul {
 	display: none;
 	position: absolute;
-	top: 100px;
+	background: white;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+	border-top: none;
+	top: 98px;
 	width: 100%;
 	height: 250px;
-	border-top: 1px solid #E0E0E0;
-	border-bottom: 1px solid #E0E0E0;
+	z-index: 88;
+	cursor: pointer;
+	padding-left: 56px;
 }
 #container-top a:hover {
 	color: #FF6700;
 }
 #tellphone>ul>li>div>p:last-child {
 	color: #FF6700;
+}
+
+
+#container-middle {
+	padding: 0 56px;
+}
+/*以下是多栏菜单和轮播图*/
+#menu-one li:first-child,#menu-one li:last-child {
+	height: 20px;
+    cursor: default;
+}
+#menu-one li {
+	list-style: none;
+	background: black;
+	width: 230px;
+	height: 45px;
+	position: relative;
+	padding-left: 15px;
+	cursor: pointer;
+}
+#menu-one li:hover {
+	background: #FF6700;
+}
+#menu-one li:first-child:hover,#menu-one li:last-child:hover {
+	background: black;
+}
+#menu-one li a {
+	text-decoration: none;
+	color: white;
+	height: 45px;
+	line-height: 45px;
+	margin: 0 10px;
+	font-size: 14px;
+}
+#menu-one li>img {
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	right: 15px;
+	top: 12.5px;
+}
+#menu-two li {
+	list-style: none;
+	float: left;
+	padding: 10px 40px;
+}
+#menu-two img {
+	width: 45px;
+	height: 45px;
+}
+#menu-more {
+	position: relative;
+}
+#menu-two ul{
+	width: 1008px;
+	margin-right: 56px;
+	height: 445px;
+	position: absolute;
+	font-size: 14px;
+	left: 244px;
+	top: -1px;
+	background: white;
+	box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+	display: flex;
+	flex-wrap: wrap;
+	display: none;
+	z-index: 66;
+}
+#menu-two ul a span {
+	position: relative;
+	top: -15.5px;
+}
+#menu-two ul li {
+	width: 100px;
+	cursor: pointer;
+}
+#menu-two ul li a:hover {
+	color: #FF6700;
+}
+
+#img-more {
+	position: relative;
+}
+#img img {
+	height: 446px;
+	width: 1008px;
+}
+#img {
+	display: none;
+	position: absolute;
+	top: -446px;
+	left: 244px;
+}
+.show-img {
+	display: block !important;
+}
+#img-more #left {
+	display: inline-block;
+	width: 40px;
+	height: 60px;
+	position: absolute;
+	top: -266px;
+	left: 244px;
+	padding: 24px 0 0 5px;
+}
+#left:hover,#right:hover{
+	background: #333333;
+	opacity: 0.6;
+	cursor: pointer;
+}
+#img-more #right {
+	display: inline-block;
+	width: 40px;
+	height: 60px;
+	position: absolute;
+	top: -266px;
+	right: 2px;
+	padding: 24px 3px 0 0;
 }
