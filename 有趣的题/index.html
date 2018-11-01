@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>有趣的题</title>
+		<link rel="stylesheet" href="css/layout.css" />
+	</head>
+	<body>
+		<h2>
+			IPHONE XR<br>
+			IS THE FUCKING<br>
+			BEST EVER MADE
+			<p>iPhone XR has not been authorized as required by the rules of the Federal Communications Commission. iPhone XR is not, and may not be, offered for sale or lease, or sold or leased, until authorization is obtained.</p>
+		</h2>
+		<script type="text/javascript">
+			function getMaxProfit(arr) {
+
+    var minPrice = arr[0];
+    var maxProfit = 0;
+
+    for (var i = 0; i < arr.length; i++) {
+        var currentPrice = arr[i];
+
+        minPrice = Math.min(minPrice, currentPrice);
+
+        var potentialProfit = currentPrice - minPrice;
+
+        maxProfit = Math.max(maxProfit, potentialProfit);
+    }
+
+    return maxProfit;
+}
+			alert(getMaxProfit([10,11,5,6,7,8,12]));
+		</script>
+	</body>
+</html>

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<script type="text/javascript">
+			var func = [];
+			for (let i = 0; i < 10; i++) {
+        		func.push(function() {
+            		console.log(i)
+        		})
+			}
+			func.forEach(function(item){item();})
+		</script>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+/*原始css样式*/
+h2{
+    font-size: 52px;
+    font-weight: bold;
+    color: #000;
+}
+p{
+    font-size: 12px;
+    color: #333;
+}
+/*为了达到效果新加的样式*/
+
+h2 {
+	width: min-content;
+	white-space: nowrap;
+}
+p {
+	white-space: normal;
+}
+
+/*另一种实现方法
+h2 {
+	display: table;
+}
+p {
+	display: table-caption;
+	caption-side: bottom;
+}*/
+
