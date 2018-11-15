@@ -1,0 +1,87 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.game_name {
+	text-align: center;
+	cursor: default;
+}
+.button_set {
+	width: 372px;
+	height: 44px;
+	margin: 20px auto;
+}
+.button_set input {
+	width: 80px;
+	height: 40px;
+	margin: 0 20px;
+	border: 1px solid #fff;
+	border-radius: 6px;
+	color: white;
+	outline: none;
+	cursor: pointer;
+}
+input:hover {
+	color: #333;
+	font-weight: bold;
+}
+input:active {
+	border: 1px solid #dfdfdf;
+	color: #333;
+	font-weight: bold;
+}
+.start {
+	background: green;
+}
+.pause {
+	background: red;
+}
+.reset {
+	background: blue;
+}
+#main {
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	border: 1px solid #eee;
+}
+.speed_select {
+	position: absolute;
+	top: 72px;
+	right: 350px;
+	cursor: default;
+}
+#speed_select {
+	cursor: pointer;
+}
+.score_show {
+	position: absolute;
+	top: 65px;
+	left: 320px;
+	color: red;
+	font-size: 1.5rem;
+	font-weight: bold;
+	cursor: default;
+}
+.block {
+	box-sizing: border-box;
+	width: 20px;
+	height: 20px;
+	border: 1px solid #dfdfdf;
+	background: #feeefe;
+	float: left;
+}
+.row_block {
+	width: 400px;
+	height: 20px;
+}
+.black {
+	background: yellow;
+	border: none;
+}
+.snake_head {
+	background: red;
+}
+.food {
+	background: blue;
+}

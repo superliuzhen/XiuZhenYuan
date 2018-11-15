@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="./style.css">
+	<title>原生js贪吃蛇</title>
+</head>
+<body>
+	<h1 class="game_name">贪吃蛇</h1>
+	<div class="button_set">
+		<input class="start" id="start" type="button"  value="开始">
+		<input class="pause" id="pause" type="button"  value="暂停">
+		<input class="reset" id="reset" type="button"  value="重置">
+	</div>
+	<div class="speed_select">
+		<span>速度：</span>
+		<select id="speed_select">
+			<option value="1">一级速度</option>
+			<option value="2">二级速度</option>
+			<option value="3">三级速度</option>
+		</select>
+	</div>
+	<div class="score_show">
+		<span>当前得分：</span>
+		<span id="score">0</span>
+	</div>
+	<div id="main">
+	</div>
+	<script type="text/javascript" src="./action.js"></script>
+</body>
+</html>
